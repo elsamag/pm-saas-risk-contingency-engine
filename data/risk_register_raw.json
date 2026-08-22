@@ -1,0 +1,50 @@
+{
+  "project_metadata": {
+    "enterprise": "Elsamag IT Solutions",
+    "lead_consultant": "Samuel Chinwendu Agu",
+    "project_name": "Enterprise SaaS Platform Implementation",
+    "budget_baseline": 745000.00,
+    "management_reserve": 65000.00,
+    "authorized_budget": 810000.00
+  },
+  "risk_register": [
+    {
+      "risk_id": "RSK-001",
+      "risk_name": "Vendor API Deprecation",
+      "probability": 0.40,
+      "impact_cost": 120000.00,
+      "emv": 48000.00,
+      "risk_owner": "Lead Technical Project Manager",
+      "status": "ACTIVE",
+      "mitigation_strategy": "Establish dual-adapter API compatibility layer and accelerate vendor deprecation SLA review."
+    },
+    {
+      "risk_id": "RSK-002",
+      "risk_name": "Sprint Velocity Degradation",
+      "probability": 0.60,
+      "impact_cost": 45000.00,
+      "emv": 27000.00,
+      "risk_owner": "Scrum Master / Agile Delivery Lead",
+      "status": "ACTIVE",
+      "mitigation_strategy": "Implement automated SQA regression gates and decouple non-critical backlogged user stories."
+    },
+    {
+      "risk_id": "RSK-003",
+      "risk_name": "Cutover Sync Failure",
+      "probability": 0.25,
+      "impact_cost": 80000.00,
+      "emv": 20000.00,
+      "risk_owner": "Cloud Infrastructure & Cutover Lead",
+      "status": "ACTIVE",
+      "mitigation_strategy": "Execute zero-downtime dual-write staging dry-runs and automated payload checksum verification."
+    }
+  ],
+  "financial_summary": {
+    "base_project_budget": 650000.00,
+    "total_calculated_contingency_reserve": 95000.00,
+    "cost_baseline": 745000.00,
+    "management_reserve_rate": 0.10,
+    "management_reserve_amount": 65000.00,
+    "total_authorized_project_budget": 810000.00
+  }
+}
